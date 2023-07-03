@@ -1,0 +1,29 @@
+"check it is even or odd number"  
+
+n=int(input("Enter a number:"))
+if (n%2==0):
+  print("Even number")
+else:
+  print("Odd number")
+-----------------------------------------------------------------
+
+"Find the greatest number"
+
+a=10
+
+b=20
+
+c=30
+
+if (a>b and a>c):
+    
+   print("a is greatest number")
+
+elif(b>a and b>c):
+    
+   print("b is greatest number")
+
+else:
+     
+     print("c is greatest number")
+     
