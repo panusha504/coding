@@ -1,0 +1,26 @@
+#Reverse number#
+n=input()
+
+print(n[::-1])
+   
+Output:
+123
+321
+____________________________________________________________________
+ Check Palindrome number or Not
+  n=input()
+
+print(n[::-1])
+
+if(n[::]==n[::-1]):
+    
+print("Pallindrome")
+   
+ else:
+   
+ print("Not pallindrome")    
+
+
+Output:
+151
+Palindrome
