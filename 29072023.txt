@@ -1,0 +1,72 @@
+#Hailstone series#
+no=int(input("enter a number:"))
+
+while no!=1:
+  
+  print(no)
+   
+ if no%2==0:
+    
+    no=no//2
+    
+else:
+       
+ no=no*3+1
+
+
+output:
+enter a number:
+10
+5
+16
+8
+4
+2
+-------------------------------------------------------------------------------------------
+#wap fibbonaci series#
+  
+n=int(input("enter range:"))
+
+n1=0
+
+n2=1
+
+print(n1,n2,end=" ")
+
+for i in range(2,n):
+    
+n3=n1+n2
+    
+n1=n2
+   
+ n2=n3
+    
+print(n3,end=" ")
+
+
+output:
+enter a range:10
+0 1 1 2 3 5 8 13 21 34
+--------------------------------------------------------------------------------
+#wap find out the month#
+m=int(input("enter month"))
+
+if m==2:
+  
+  print("28days")
+
+elif m in[1,3,5,7,8,10,12]:
+    
+print("31 days")
+
+else:
+   
+ print("30 days")
+
+
+output:
+enter month 7
+31 days
+
+
+
